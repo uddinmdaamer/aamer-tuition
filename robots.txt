@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block thank-you and utility pages from indexing
+Disallow: /thankyou.html
+Disallow: /thankyou/
+
+# Allow all area pages, subject pages, board pages
+Allow: /home-tuition-*/
+Allow: /book-demo/
+Allow: /careers/
+
+# Sitemap location
+Sitemap: https://aamerhometuitions.in/sitemap.xml
